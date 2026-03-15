@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "currentPhase": "init",
+  "phases": {
+    "init": { "status": "pending", "startedAt": null, "completedAt": null },
+    "design": { "status": "pending", "startedAt": null, "completedAt": null },
+    "develop": { "status": "pending", "startedAt": null, "completedAt": null },
+    "integrate": { "status": "pending", "startedAt": null, "completedAt": null },
+    "deploy": { "status": "pending", "startedAt": null, "completedAt": null }
+  },
+  "agents": [],
+  "worktrees": [],
+  "escalations": [],
+  "lastCheckpoint": null
+}

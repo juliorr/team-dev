@@ -1,0 +1,31 @@
+{
+  "autonomy": "semi-autonomous",
+  "maxAutoFixRetries": 3,
+  "escalationChain": ["developer", "architect", "user"],
+  "checkpoints": {
+    "semi-autonomous": [
+      "design-approval",
+      "phase-complete",
+      "integration-approval",
+      "deploy-approval",
+      "conflict-resolution",
+      "auto-fix-limit-exceeded"
+    ],
+    "high-autonomy": [
+      "deploy-approval",
+      "unresolvable-blocker"
+    ]
+  },
+  "roles": {
+    "architect": { "enabled": true, "count": 1 },
+    "developer": { "enabled": true, "count": 3 },
+    "tester": { "enabled": true, "count": 1 },
+    "devops": { "enabled": true, "count": 1 },
+    "stakeholder": { "enabled": true, "count": 1 }
+  },
+  "project": {
+    "type": null,
+    "stack": {},
+    "planPath": null
+  }
+}

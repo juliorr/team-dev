@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Example task",
+      "description": "Detailed description of what needs to be done",
+      "assignedRole": "developer",
+      "assignedAgent": null,
+      "status": "pending",
+      "priority": "high",
+      "phase": "develop",
+      "dependencies": [],
+      "worktree": null,
+      "autoFixRetries": 0,
+      "files": [],
+      "notes": ""
+    }
+  ]
+}
